@@ -5,7 +5,8 @@ import styles from "./HomepageFeatures.module.css";
 const FeatureList = [
   {
     title: "First Feature",
-    Svg: require("../../static/img/logo.png").default,
+    //  TODO :: use svg instead of png
+    // Svg: require("../../static/img/logo.png").default,
     description: <>talk about it here</>,
   },
 ];
