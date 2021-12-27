@@ -3,12 +3,12 @@ import clsx from "clsx";
 import styles from "./HomepageFeatures.module.css";
 // TODO :: update features images
 const FeatureList = [
-  {
-    title: "First Feature",
-    //  TODO :: use svg instead of png
-    // Svg: require("../../static/img/logo.png").default,
-    description: <>talk about it here</>,
-  },
+  // {
+  //   title: "First Feature",
+  //  TODO :: use svg instead of png
+  //   Svg: require("../../static/img/logo.png").default,
+  //   description: <>talk about it here</>,
+  // },
 ];
 
 function Feature({ Svg, title, description }) {
