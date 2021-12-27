@@ -56,11 +56,11 @@ const config = {
             position: "left",
             label: "docs",
           },
-          {
-            href: "https://t.me/flutter_q_news",
-            label: "news",
-            position: "right",
-          },
+          // {
+          //   href: "https://t.me/flutter_q_news",
+          //   label: "news",
+          //   position: "right",
+          // },
           {
             href: "https://github.com/PalestineDevelopers",
             label: "GitHub",
@@ -86,12 +86,12 @@ const config = {
             items: [
               {
                 label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/queen",
+                href: "https://stackoverflow.com/questions/tagged/palestine",
               },
-              {
-                label: "telegram",
-                href: "https://t.me/+nAL_a-i78Oc1NDg0",
-              },
+              // {
+              //   label: "telegram",
+              //   href: "https://t.me/+nAL_a-i78Oc1NDg0",
+              // },
             ],
           },
           {
@@ -99,7 +99,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/PalestineDevelopers/queen",
+                href: "https://github.com/PalestineDevelopers",
               },
             ],
           },
