@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "PalestineDevelopers",
-  tagline: "PalestineDevelopers",
+  title: "Palestine Developers",
+  tagline: "An initiative to revive the name of Palestine",
   url: "https://PalestineDevelopers.github.io",
   baseUrl: "/website/",
   onBrokenLinks: "throw",
