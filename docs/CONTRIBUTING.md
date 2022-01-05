@@ -1,3 +1,8 @@
+---
+title: Contributing
+sidebar_position: 6
+---
+
 # Contributing to PalestineDevelopers
 
 First off all, thanks for taking the time to contribute!
