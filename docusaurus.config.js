@@ -25,13 +25,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/PalestineDevelopers/website/tree/master/",
+            "https://github.com/PalestineDevelopers/website/tree/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/PalestineDevelopers/website/tree/master/",
+            "https://github.com/PalestineDevelopers/website/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

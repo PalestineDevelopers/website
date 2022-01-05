@@ -3,67 +3,57 @@ title: Console
 sidebar_position: 5
 ---
 
-# palestine_connection
+# palestine_console
 
-Lightweight internet connection test, lookup Google domain.
+## Part of [PalestineDevelopers](https://github.com/PalestineDevelopers)
 
-[![License](https://img.shields.io/github/license/msayed-net/PalestineDevelopers)](https://github.com/msayed-net/PalestineDevelopers)
-[![Pub](https://img.shields.io/badge/Palestine%20Connection-pub-blue)](https://pub.dev/packages/palestine_connection)
-[![Example](https://img.shields.io/badge/Example-Ex-success)](https://pub.dev/packages/palestine_connection/example)
+Print.color() to console in any platform, more features will be added later.
 
-Part of PalestineDevelopers project
+[![License](https://img.shields.io/github/license/PalestineDevelopers/console)](https://github.com/PalestineDevelopers)
+[![Pub](https://img.shields.io/badge/Palestine%20Console-pub-blue)](https://pub.dev/packages/palestine_palestine_console)
+[![Example](https://img.shields.io/badge/Example-Ex-success)](https://pub.dev/packages/palestine_palestine_console/example)
 
-[![Fork](https://img.shields.io/github/forks/msayed-net/PalestineDevelopers?style=social)](https://github.com/msayed-net/PalestineDevelopers)
-[![Star](https://img.shields.io/github/stars/msayed-net/PalestineDevelopers?style=social)](https://github.com/msayed-net/PalestineDevelopers)
-[![Watch](https://img.shields.io/github/watchers/msayed-net/PalestineDevelopers?style=social)](https://github.com/msayed-net/PalestineDevelopers)  
+[![Fork](https://img.shields.io/github/forks/PalestineDevelopers/console?style=social)](https://github.com/PalestineDevelopers/console)
+[![Star](https://img.shields.io/github/stars/PalestineDevelopers/console?style=social)](https://github.com/PalestineDevelopers/console)
+[![Watch](https://img.shields.io/github/watchers/PalestineDevelopers/console?style=social)](https://github.com/PalestineDevelopers/console)
+
+---
+
+## Table Of Contents
+
+* [Features](#features)
+* [Getting started](#getting-started)
+* [Usage](#usage)
+
+---
 
 ## Features
 
-* Periodic internet connection tests
-* dispose method
+* Print.color() to console.
+
+---
 
 ## Getting started
 
 To start, import package
 
 ```dart
-import 'package:palestine_connection/palestine_connection.dart';
+import 'package:palestine_console/palestine_console.dart';
 ```
+
+---
 
 ## Usage
 
 Just as easy as this
 
 ```dart
-final PalConnection connection = PalConnection();
-connection.initialize(
-    domain: PalDomain.random, // Domain To Test On (optional)
-    periodicInSeconds: 3, // 3 seconds
-    onConnectionLost: () {
-      // No Internet
-    },
-    onConnectionRestored: () {
-      // Internet is back
-    },
-  );
-```
-
-It could get more easier actually
-
-```dart
-PalConnection().initialize(
-    periodicInSeconds: 3, // 3 seconds
-    onConnectionLost: () {
-      // No Internet
-    },
-    onConnectionRestored: () {
-      // Internet is back
-    },
-  );
-```
-
-Then you could dispose it
-
-```dart
-connection.dispose();
+Print.black('In black');
+Print.white('In white');
+Print.red('In red');
+Print.green('In green');
+Print.yellow('In yellow');
+Print.blue('In blue');
+Print.magenta('In magenta');
+Print.cyan('In cyan');
 ```
