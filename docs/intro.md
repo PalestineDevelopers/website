@@ -17,7 +17,7 @@ An initiative to revive the name of Palestine
 
 * [![Pub](https://img.shields.io/badge/Palestine%20Trusted%20Device-pub-blue)](https://pub.dev/packages/palestine_trusted_device)
 
-* [![Pub](https://img.shields.io/badge/Palestine%20Trusted%20Device-pub-blue)](https://pub.dev/packages/palestine_console)
+* [![Pub](https://img.shields.io/badge/Palestine%20Console-pub-blue)](https://pub.dev/packages/palestine_console)
 
 * [![Pub](https://img.shields.io/badge/localize%20and%20translate-pub-blue)](https://pub.dev/packages/localize_and_translate) .. will be replaced
 
