@@ -9,7 +9,7 @@ const config = {
   title: "Palestine Developers",
   tagline: "An initiative to revive the name of Palestine",
   url: "https://PalestineDevelopers.github.io",
-  baseUrl: "/website/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
