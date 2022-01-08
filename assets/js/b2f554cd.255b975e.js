@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpalestine_developers=self.webpackChunkpalestine_developers||[]).push([[477],{10:function(e){e.exports={blogPosts:[]}}}]);
