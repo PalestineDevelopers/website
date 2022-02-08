@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: CD [Build, Deploy]
 on: [push]
 jobs:
   build-and-deploy:
